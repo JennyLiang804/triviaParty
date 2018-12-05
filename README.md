@@ -56,7 +56,7 @@ The database contains three tables with set columns:
 
 When the initial screen loads, a short animation runs to display the title, immediately after which a Bootstrap modal appears requiring input. The player much enter a name and click on one of the three difficulty buttons (Easy, Medium, or Hard) before the log-in button allows them to continue. After that, the current player's name is shown at the top of the page, next to a default score of 0.
 
-The first page (index.handlebars) displays three rows of three categories, which are randomly generated from the Categories table, each one with a related image. The 3D rotation effect for the category circles and difficulty circles was achieved with CSS files found on the Codrops site (https://tympanus.net/codrops/2012/08/08/circle-hover-effects-with-css-transitions/), and a slightly different effect is used on the question circles on the category page.
+The first page (index.handlebars) displays three rows of three categories, which are randomly generated from the Categories table, each one with a related image. The 3D rotation effect for the category circles and difficulty circles was achieved with CSS files found on the Codrops site, and a slightly different effect is used on the question circles on the category page.
 
 When one of the category circles' links is clicked, the category.handlebars file is loaded for that particular category, changing the background based on the topic, displaying the category name at the top, and generating five question circles. When one of these circles is clicked, the list of circles is hidden, and the question itself is shown, along with the four answer options and a submit button.
 
